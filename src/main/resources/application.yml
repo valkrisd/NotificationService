@@ -1,0 +1,7 @@
+spring:
+  kafka:
+    bootstrap_servers: kafka:9092
+    topic:
+      name: course_notifications
+    consumer:
+      group_id: course_notifications_group
